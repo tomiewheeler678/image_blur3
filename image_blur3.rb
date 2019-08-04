@@ -59,7 +59,7 @@ image = Image.new([
 ])
 
 image.output_image 
-image.blur!
+image.blur(2)
 puts
 image.output_image
 
