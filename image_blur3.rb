@@ -42,12 +42,7 @@ def blur!
 end
 
 
-#Manhattan Distance = abs(x1-x2) + abs(y1-y2)
-  def manhattan_distance (x1, y1, x2, y2)
-    horizontal_distance = (x2 - x1).abs
-    vertical_distance = (y2 - y1).abs
-    horizontal_distance + vertical_distance
-  end
+
 
 
 
